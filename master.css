@@ -2,6 +2,18 @@ body {
     background: #F0F0F0 !important;
 }
 
+#top-panel td > a {
+  background: url("jenkins_logo.png") 0 no-repeat;
+  display: block;
+  width: 330px;
+  height: 40px;
+  margin: 0px 0 0px 10px; 
+}
+
+#top-panel td > a img {
+  display: none; 
+}
+
 #top-panel {
     height: 37px !important;
     background: #036;
@@ -518,3 +530,30 @@ img[src$="images/48x48/aborted.png"],  img[src$="images/48x48/aborted.gif"],  im
     height: 48px;
     padding: 0 48px 0 0;
 }
+
+/* Console output */ 
+body>pre,#main-panel>pre {
+    font-size:13px;
+    background-color:#393939;
+    color:#b5c4d0;
+    padding:20px 20px 30px;
+    border-radius:3px;
+    /*box-shadow*/
+    -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.32);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.32);
+    /*background-clip*/
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: /*@@prefixmycss->No equivalent*/; 
+    background-clip:padding-box;
+    /*@@prefixmycss->No equivalent*/
+    : ;
+    /*border-radius*/
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    word-wrap: break-word;
+    max-width: 1200px;
+}
+
