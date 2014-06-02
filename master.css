@@ -557,3 +557,11 @@ body>pre,#main-panel>pre {
     max-width: 1200px;
 }
 
+table.progress-bar {
+  border-collapse: collapse;
+  border: 1px solid #3465a4;
+  height: 12px;
+  width: 100px;
+  clear: none;
+}
+
